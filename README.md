@@ -19,6 +19,12 @@ https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
 Balanced binary classification
 Images were resized to 224×224 and normalized using ImageNet statistics to ensure compatibility with transfer learning models.
 
+*Example*
+
+![00029](https://github.com/user-attachments/assets/db31e415-00cd-41bc-88fd-0eedd452dd7a)
+
+![00014](https://github.com/user-attachments/assets/040912a8-014a-4b7e-a546-904137593e54)
+
 *What Was Implemented*
 
 *1- Baseline CNN*
