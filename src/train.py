@@ -134,7 +134,7 @@ history_reg = train_epochs(
     loss_fn,
     optimizer,
     DEVICE,
-    epochs=1,
+    epochs=10,
     patience=3
 )
 
@@ -166,7 +166,7 @@ history_tl = train_epochs(
     loss_fn,
     optimizer,
     DEVICE,
-    epochs=3,
+    epochs=5,
     patience=2
 )
 
@@ -198,3 +198,4 @@ test_loss_ft, test_acc_ft = evaluate(model_tl, test_loader, loss_fn, DEVICE)
 
 print("Fine-tuned test loss:", test_loss_ft)
 print("Fine-tuned test acc:", test_acc_ft)
+
