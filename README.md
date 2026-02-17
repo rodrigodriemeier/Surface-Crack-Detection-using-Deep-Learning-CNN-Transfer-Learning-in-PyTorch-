@@ -1,0 +1,2 @@
+# Surface-Crack-Detection-using-Deep-Learning-CNN-Transfer-Learning-in-PyTorch-
+This project implements a complete deep learning pipeline for automatic surface crack detection using convolutional neural networks in PyTorch. It compares a custom CNN baseline with regularization techniques and transfer learning (ResNet18), focusing on structured experimentation, threshold analysis, and engineering-oriented evaluation.
